@@ -1,2 +1,10 @@
-# aem-experience-hub-ext-tpl
-This is an Adobe Developer App Builder template for building AEM Experience Hub extensions.
+# @adobe/generator-aem-experience-hub-ext-tp
+
+Extension template for AEM Experience Hub
+
+## What is an Adobe Developer App Builder Template?
+
+An Adobe Developer App Builder template is a collection of code and configuration that can be used to bootstrap an App Builder application.
+
+Your template, written in [Yeoman](https://yeoman.io), will run code that can install and edit files for an App Builder app.
+

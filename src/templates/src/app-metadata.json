@@ -1,0 +1,7 @@
+{
+    "extensions": [
+        {
+            "extensionPoint": "aem/launchpad/1"
+        }
+    ]
+}

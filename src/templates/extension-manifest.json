@@ -1,0 +1,13 @@
+{
+    "name": "<%= projectName %>",
+    "id": "<%= projectName %>",
+    "description": "This is <%= projectName %>",
+    "version": "0.0.1",
+    "headerMenuButtons": [
+      {
+        "label": "<%= projectName %>",
+        "needsModal": true,
+        "id": "<%= projectName %>"
+      }
+    ]
+  }

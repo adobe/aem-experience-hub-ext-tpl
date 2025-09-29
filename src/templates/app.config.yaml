@@ -1,0 +1,27 @@
+extensions:
+  aem-launchpad-1:
+    $include: src/aem-launchpad-1/ext.config.yaml
+    runtimeManifest:
+      packages:
+        <%= projectName %>:
+          license: Apache-2.0
+          actions:
+            generic:
+              function: src/aem-launchpad-1/actions/generic/index.js
+              web: 'yes'
+              runtime: nodejs:22
+              inputs:
+                LOG_LEVEL: debug
+              annotations:
+                require-adobe-auth: true
+                final: true
+            publish-events:
+              function: src/aem-launchpad-1/actions/publish-events/index.js
+              web: 'yes'
+              runtime: nodejs:22
+              inputs:
+                LOG_LEVEL: debug
+                apiKey: $SERVICE_API_KEY
+              annotations:
+                require-adobe-auth: true
+                final: true
