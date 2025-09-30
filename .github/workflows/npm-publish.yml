@@ -1,6 +1,7 @@
 # ATTENTION: Adobe does not provide support for the npm-publish action. We show it here
 # as an example only. Please see the README at https://github.com/pascalgn/npm-publish-action
 # for full instructions and information on the action.
+
 # When used in a repo under the github.com/adobe organization, repo maintainers should
 # contact Adobe's Open Source Office to gain access to the secrets.ADOBE_BOT_NPM_TOKEN.
 
