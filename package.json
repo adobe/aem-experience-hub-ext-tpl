@@ -1,7 +1,7 @@
 {
   "name": "@adobe/aem-experience-hub-ext-tpl",
   "description": "Extension template for AEM Experience Hub",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.js",
   "keywords": [
     "ecosystem:aio-app-builder-templates"
