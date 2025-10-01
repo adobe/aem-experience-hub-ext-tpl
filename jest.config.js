@@ -19,5 +19,13 @@ module.exports = {
     'src/**/*.js'
   ],
   testPathIgnorePatterns: [
-  ]
+  ],
+  transform: {
+    '^.+\\.jsx?$': ['babel-jest', {
+      presets: [
+        ['@babel/preset-env', { targets: { node: 'current' } }],
+        '@babel/preset-react'
+      ]
+    }]
+  }
 }

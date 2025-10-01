@@ -1,7 +1,7 @@
 {
   "name": "@adobe/aem-experience-hub-ext-tpl",
   "description": "Extension template for AEM Experience Hub",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "src/index.js",
   "keywords": [
     "ecosystem:aio-app-builder-templates"
@@ -20,7 +20,13 @@
       "stdout-stderr": "^0.1.13",
       "yeoman-test": "^6.3.0",
       "fs-extra": "^10",
-      "@adobe/aio-lib-template-validation": "^4.0.0"
+      "@adobe/aio-lib-template-validation": "^4.0.0",
+      "@adobe/aio-sdk": "^6",
+      "node-fetch": "^2.6.0",
+      "@babel/core": "^7.8.7",
+      "@babel/preset-env": "^7.8.7",
+      "@babel/preset-react": "^7.8.3",
+      "babel-jest": "^29"
   },
   "scripts": {
     "validate": "tv run-checks .",
