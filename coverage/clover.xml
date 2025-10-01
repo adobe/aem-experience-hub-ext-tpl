@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1758208735247" clover="3.2.0">
-  <project timestamp="1758208735247" name="All files">
+<coverage generated="1759321004992" clover="3.2.0">
+  <project timestamp="1759321004992" name="All files">
     <metrics statements="225" coveredstatements="103" conditionals="130" coveredconditionals="46" methods="37" coveredmethods="18" elements="392" coveredelements="167" complexity="0" loc="225" ncloc="225" packages="11" files="13" classes="13"/>
     <package name="src">
       <metrics statements="21" coveredstatements="19" conditionals="12" coveredconditionals="6" methods="7" coveredmethods="7"/>
-      <file name="index.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/index.js">
+      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/index.js">
         <metrics statements="21" coveredstatements="19" conditionals="12" coveredconditionals="6" methods="7" coveredmethods="7"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
@@ -31,272 +31,272 @@
     </package>
     <package name="src.templates">
       <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="index.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/index.js">
+      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="jest.setup.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/jest.setup.js">
+      <file name="jest.setup.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/jest.setup.js">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.actions">
       <metrics statements="28" coveredstatements="28" conditionals="27" coveredconditionals="27" methods="8" coveredmethods="8"/>
-      <file name="utils.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/actions/utils.js">
+      <file name="utils.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/actions/utils.js">
         <metrics statements="28" coveredstatements="28" conditionals="27" coveredconditionals="27" methods="8" coveredmethods="8"/>
-        <line num="16" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="11" type="stmt"/>
-        <line num="20" count="14" type="stmt"/>
-        <line num="37" count="44" type="stmt"/>
-        <line num="38" count="60" type="stmt"/>
-        <line num="39" count="60" type="stmt"/>
-        <line num="40" count="60" type="cond" truecount="2" falsecount="0"/>
-        <line num="41" count="60" type="cond" truecount="2" falsecount="0"/>
-        <line num="60" count="22" type="stmt"/>
+        <line num="19" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+        <line num="40" count="44" type="stmt"/>
+        <line num="41" count="60" type="stmt"/>
+        <line num="42" count="60" type="stmt"/>
+        <line num="43" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="60" type="cond" truecount="2" falsecount="0"/>
         <line num="63" count="22" type="stmt"/>
-        <line num="65" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="66" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="67" count="4" type="stmt"/>
-        <line num="71" count="22" type="stmt"/>
-        <line num="72" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="73" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="74" count="2" type="stmt"/>
-        <line num="76" count="4" type="stmt"/>
-        <line num="78" count="6" type="stmt"/>
-        <line num="81" count="22" type="stmt"/>
-        <line num="94" count="15" type="cond" truecount="5" falsecount="0"/>
-        <line num="97" count="11" type="stmt"/>
-        <line num="99" count="4" type="stmt"/>
-        <line num="116" count="8" type="cond" truecount="4" falsecount="0"/>
-        <line num="117" count="7" type="stmt"/>
-        <line num="119" count="8" type="stmt"/>
-        <line num="129" count="3" type="stmt"/>
+        <line num="66" count="22" type="stmt"/>
+        <line num="68" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="74" count="22" type="stmt"/>
+        <line num="75" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="79" count="4" type="stmt"/>
+        <line num="81" count="6" type="stmt"/>
+        <line num="84" count="22" type="stmt"/>
+        <line num="97" count="15" type="cond" truecount="5" falsecount="0"/>
+        <line num="100" count="11" type="stmt"/>
+        <line num="102" count="4" type="stmt"/>
+        <line num="119" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="120" count="7" type="stmt"/>
+        <line num="122" count="8" type="stmt"/>
+        <line num="132" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.actions.generic">
       <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="index.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/actions/generic/index.js">
+      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/actions/generic/index.js">
         <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="21" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="23" count="5" type="stmt"/>
-        <line num="25" count="5" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="5" type="stmt"/>
         <line num="28" count="5" type="stmt"/>
         <line num="31" count="5" type="stmt"/>
-        <line num="32" count="5" type="stmt"/>
-        <line num="33" count="5" type="stmt"/>
-        <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="40" count="4" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
         <line num="43" count="4" type="stmt"/>
         <line num="46" count="4" type="stmt"/>
-        <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="51" count="1" type="stmt"/>
-        <line num="57" count="1" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
-        <line num="61" count="3" type="stmt"/>
-        <line num="63" count="3" type="stmt"/>
-        <line num="67" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.actions.publish-events">
       <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
-      <file name="index.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/actions/publish-events/index.js">
+      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/actions/publish-events/index.js">
         <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="24" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="6" type="stmt"/>
-        <line num="28" count="6" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="6" type="stmt"/>
         <line num="31" count="6" type="stmt"/>
         <line num="34" count="6" type="stmt"/>
-        <line num="35" count="6" type="stmt"/>
-        <line num="36" count="6" type="stmt"/>
-        <line num="37" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="43" count="5" type="stmt"/>
-        <line num="47" count="5" type="stmt"/>
-        <line num="48" count="5" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="40" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
         <line num="51" count="5" type="stmt"/>
         <line num="54" count="5" type="stmt"/>
-        <line num="55" count="4" type="stmt"/>
-        <line num="56" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="57" count="1" type="stmt"/>
-        <line num="58" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="59" count="3" type="stmt"/>
-        <line num="60" count="3" type="stmt"/>
-        <line num="62" count="4" type="stmt"/>
-        <line num="67" count="4" type="stmt"/>
-        <line num="68" count="4" type="stmt"/>
-        <line num="71" count="1" type="stmt"/>
-        <line num="73" count="1" type="stmt"/>
-        <line num="78" count="5" type="stmt"/>
-        <line num="85" count="5" type="stmt"/>
-        <line num="87" count="1" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="59" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="65" count="4" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="81" count="5" type="stmt"/>
+        <line num="88" count="5" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.hooks">
       <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="post-deploy.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/hooks/post-deploy.js">
+      <file name="post-deploy.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/hooks/post-deploy.js">
         <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.src.aem-launchpad-1.actions">
       <metrics statements="28" coveredstatements="0" conditionals="27" coveredconditionals="0" methods="8" coveredmethods="0"/>
-      <file name="utils.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/utils.js">
+      <file name="utils.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/utils.js">
         <metrics statements="28" coveredstatements="0" conditionals="27" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="60" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="63" count="0" type="stmt"/>
-        <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="66" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="72" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="70" count="0" type="stmt"/>
         <line num="74" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
         <line num="81" count="0" type="stmt"/>
-        <line num="94" count="0" type="cond" truecount="0" falsecount="5"/>
-        <line num="97" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="116" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="117" count="0" type="stmt"/>
-        <line num="119" count="0" type="stmt"/>
-        <line num="129" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="97" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="119" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.src.aem-launchpad-1.actions.generic">
       <metrics statements="24" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="index.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/generic/index.js">
+      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/generic/index.js">
         <metrics statements="24" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="39" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="47" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
         <line num="60" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.src.aem-launchpad-1.actions.publish-events">
       <metrics statements="32" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="index.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/publish-events/index.js">
+      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/publish-events/index.js">
         <metrics statements="32" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="27" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
         <line num="58" count="0" type="stmt"/>
         <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="60" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
         <line num="63" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
         <line num="74" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="86" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.src.aem-launchpad-1.web-src.src">
       <metrics statements="18" coveredstatements="0" conditionals="34" coveredconditionals="0" methods="5" coveredmethods="0"/>
-      <file name="exc-runtime.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/exc-runtime.js">
+      <file name="exc-runtime.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/exc-runtime.js">
         <metrics statements="1" coveredstatements="0" conditionals="23" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="10" count="0" type="cond" truecount="0" falsecount="23"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="23"/>
       </file>
-      <file name="utils.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/utils.js">
+      <file name="utils.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/utils.js">
         <metrics statements="17" coveredstatements="0" conditionals="11" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="32" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.src.aem-launchpad-1.web-src.src.components">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="Constants.js" path="/Users/mpericica/Templates/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/Constants.js">
+      <file name="Constants.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/Constants.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
       </file>
     </package>
   </project>
