@@ -49,12 +49,13 @@ module.exports = class extends Generator {
     const dest = this.destinationRoot();
     this.log(`\nTemplates copied to: ${dest}\n`);
 
-      try {
-        execSync('npm install', { stdio: 'inherit', cwd: dest });
-        execSync('npm install @adobe/uix-guest', { stdio: 'inherit', cwd: dest });
-        this.log('\nDependencies installed.\n');
-      } catch {
-        this.log('\nnpm install failed. Please run manually.\n');
-      }
+    try {
+      execSync('npm install', { stdio: 'inherit', cwd: dest });
+      execSync('npm install @adobe/uix-guest', { stdio: 'inherit', cwd: dest });
+      execSync('npm install @adobe/aem-experience-hub-ext-tpl', { stdio: 'inherit', cwd: dest });
+      this.log('\nDependencies installed.\n');
+    } catch {
+      this.log('\nnpm install failed. Please run manually.\n');
+    }
   }
 };
