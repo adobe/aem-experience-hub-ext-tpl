@@ -1,7 +1,7 @@
 {
   "name": "@adobe/aem-experience-hub-ext-tpl",
   "description": "Extension template for AEM Experience Hub",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "src/index.js",
   "keywords": [
     "ecosystem:aio-app-builder-templates"
@@ -12,8 +12,11 @@
     "README.md"
   ],
   "dependencies": {
-    "yeoman-generator": "^5",
-    "yeoman-environment": "^3"
+    "@adobe/uix-guest": "^1.0.5",
+    "globby": "^14.0.0",
+    "is-binary-path": "^2.1.0",
+    "yeoman-environment": "^3.19.3",
+    "yeoman-generator": "^5.10.0"
   },
   "devDependencies": {
       "jest": "^29",

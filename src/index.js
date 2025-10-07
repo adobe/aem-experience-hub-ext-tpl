@@ -10,79 +10,51 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-const Generator = require('yeoman-generator');
 const path = require('path');
+const Generator = require('yeoman-generator');
+const { execSync } = require('child_process');
 
-class TheGenerator extends Generator {
-  constructor(args, opts) {
-    super(args, opts);
-
-    this.option('dest-folder',  { type: String, default: '.' });
-    this.option('project-name', { type: String, default: '' });
-
-    this.props = {
-      destFolder: this.options['dest-folder'],
-      projectName: this.options['project-name']
-    };
-  }
+module.exports = class extends Generator {
 
   async prompting() {
-    const answers = await this.prompt([
-      {
-        type: 'input',
-        name: 'destFolder',
-        message: 'Destination folder (use "." for current dir):',
-        default: this.props.destFolder || this.appname.replace(/\s+/g, '-')
-      },
-      {
-        type: 'input',
-        name: 'projectName',
-        message: 'Project name:',
-        default: this.props.projectName || 'my-app'
-      }
+    this.answers = await this.prompt([
+      { type: 'input', name: 'projectName', message: 'Project name:', default: path.basename(this.destinationRoot()) },
+      { type: 'input', name: 'targetPath', message: 'Target path (use "." for current):', default: '.' }
     ]);
-
-    this.props.destFolder  = (answers.destFolder || '.').trim();
-    this.props.projectName = (answers.projectName || '').trim();
-  }
-
-  async initializing() {
-    this.sourceRoot(path.join(__dirname, './templates/'));
   }
 
   writing() {
-    const destFolder = this.props.destFolder;
-
-    if (destFolder !== '.') {
-      this.destinationRoot(this.destinationPath(destFolder));
-    }
+    this.sourceRoot(path.resolve(__dirname, 'templates'));
+    const { projectName, targetPath } = this.answers;
+    const finalDest = path.resolve(this.destinationRoot(), targetPath || '.');
+    this.destinationRoot(finalDest);
 
     this.fs.copyTpl(
-      this.templatePath('**/*'),
+      this.templatePath('**/*'), 
       this.destinationPath(),
-      this.props,
-      null,
-      {
-        globOptions: {
-          dot: true,
-          ignore: ['**/node_modules/**']
-        },
-        processDestinationPath: p => p.replace(/(^|\/)_([^/]+)/g, '$1.$2')
-      }
+      { projectName }, 
+      undefined, 
+      { globOptions: { dot: true } }
+    );
+    this.fs.copyTpl(
+      this.templatePath('**/.*'), 
+      this.destinationPath(),
+      { projectName },
+      undefined,
+      { globOptions: { dot: true } }
     );
   }
-  install() {
-    if (this.options['skip-install']) return;
-  
-    this.spawnCommandSync('npm', ['install'], { cwd: this.destinationRoot() });
-  
-    this.spawnCommandSync('npm', ['install', '@adobe/uix-guest'], { cwd: this.destinationRoot() });
-  }
 
-  end() {
-    this.log(`✅ Project ready at: ${this.destinationRoot()}`);
-    this.log(`➡  Project name used: ${this.props.projectName}`);
-  }
-}
+  async end() {
+    const dest = this.destinationRoot();
+    this.log(`\nTemplates copied to: ${dest}\n`);
 
-module.exports = TheGenerator;
+      try {
+        execSync('npm install', { stdio: 'inherit', cwd: dest });
+        execSync('npm install @adobe/uix-guest', { stdio: 'inherit', cwd: dest });
+        this.log('\nDependencies installed.\n');
+      } catch {
+        this.log('\nnpm install failed. Please run manually.\n');
+      }
+  }
+};
