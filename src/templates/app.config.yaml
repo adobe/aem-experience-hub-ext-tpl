@@ -1,5 +1,5 @@
 extensions:
-  aem-launchpad-1:
+  aem/launchpad/1:
     $include: src/aem-launchpad-1/ext.config.yaml
     runtimeManifest:
       packages:
