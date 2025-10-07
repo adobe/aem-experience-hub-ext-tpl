@@ -1,4 +1,4 @@
-# @adobe/generator-aem-experience-hub-ext-tpl
+# @adobe/aem-experience-hub-ext-tpl
 
 Extension template for AEM Experience Hub
 
