@@ -9,7 +9,6 @@ the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTA
 OF ANY KIND, either express or implied. See the License for the specific language
 governing permissions and limitations under the License.
 */
-
 const path = require('path');
 const Generator = require('yeoman-generator');
 const { execSync } = require('child_process');
@@ -18,16 +17,19 @@ module.exports = class extends Generator {
 
   async prompting() {
     this.answers = await this.prompt([
-      { type: 'input', name: 'projectName', message: 'Project name:', default: path.basename(this.destinationRoot()) },
-      { type: 'input', name: 'targetPath', message: 'Target path (use "." for current):', default: '.' }
+      { 
+        type: 'input', 
+        name: 'projectName', 
+        message: 'Project name:', 
+        default: path.basename(this.destinationRoot()) 
+      }
     ]);
   }
 
   writing() {
     this.sourceRoot(path.resolve(__dirname, 'templates'));
-    const { projectName, targetPath } = this.answers;
-    const finalDest = path.resolve(this.destinationRoot(), targetPath || '.');
-    this.destinationRoot(finalDest);
+    const { projectName } = this.answers;
+    const finalDest = this.destinationRoot(); 
 
     this.fs.copyTpl(
       this.templatePath('**/*'), 
