@@ -15,7 +15,11 @@ function ExtensionRegistration() {
                 id: extensionId,
                 title: '<%= projectName %>',
                 description: 'This is <%= projectName %>',
-                url: '/index.html#/<%= projectName %>'
+                url: '/index.html#/<%= projectName %>',
+                widgetSize: {
+                  defaultWidth: 6,
+                  defaultHeight: 6
+                }
               };
           },
         },
