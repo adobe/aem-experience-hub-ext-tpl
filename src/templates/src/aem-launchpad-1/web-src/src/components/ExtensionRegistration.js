@@ -19,7 +19,8 @@ function ExtensionRegistration() {
                 widgetSize: {
                   defaultWidth: 6,
                   defaultHeight: 6
-                }
+                },
+                hideWidgetHeader: false
               };
           },
         },

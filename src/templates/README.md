@@ -62,6 +62,41 @@ You can generate this file using the command `aio app use`.
      before deploying it as a zipped action. Use this method if you want to keep
      your action's dependencies separated.
 
+## Widget Configuration
+
+### Hide Widget Title
+
+The `hideWidgetTitle` property allows you to hide the widget title in the Experience Hub. Set it to `true` to hide the title header, or `false` to display it.
+
+### Widget Size Configuration
+
+The widget size can be configured in three ways, with different priority levels:
+
+1. **Through Code** (Lowest Priority)
+   
+   Define default widget dimensions in `ExtensionRegistration.js`:
+   
+```javascript
+widgetSize: {
+  defaultWidth: 6,
+  defaultHeight: 6
+}
+```
+
+2. **Through Extension Manager Configure Variables** (Medium Priority)
+   
+   Set widget dimensions using configuration variables from the Extension Manager:
+   - `layoutWidth`: Controls the widget width
+   - `layoutHeight`: Controls the widget height
+   
+   These configuration variables will override the `widgetSize` values defined in code.
+
+3. **Through Customize Button** (Highest Priority)
+   
+   When customers manually adjust the widget size using the customize button in Experience Hub, their preferences take precedence over all other settings.
+
+**Valid Values**: Both width and height values must be between `2` and `12`.
+
 ## Debugging in VS Code
 
 While running your local server (`aio app run`), both UI and actions can be debugged, to do so open the vscode debugger
@@ -79,3 +114,4 @@ and make sure you have the below config added
     }
   } 
 ```
+
