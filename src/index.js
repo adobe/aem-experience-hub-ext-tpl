@@ -29,19 +29,20 @@ module.exports = class extends Generator {
   writing() {
     this.sourceRoot(path.resolve(__dirname, 'templates'));
     const { projectName } = this.answers;
-    const finalDest = this.destinationRoot(); 
+    const defaultProjectName = path.basename(this.destinationRoot());
+    const sanitizedProjectName = projectName.trim().replace(/\s+/g, '-') || defaultProjectName;
 
     this.fs.copyTpl(
       this.templatePath('**/*'), 
       this.destinationPath(),
-      { projectName }, 
+      { projectName: sanitizedProjectName }, 
       undefined, 
       { globOptions: { dot: true } }
     );
     this.fs.copyTpl(
       this.templatePath('**/.*'), 
       this.destinationPath(),
-      { projectName },
+      { projectName: sanitizedProjectName },
       undefined,
       { globOptions: { dot: true } }
     );
