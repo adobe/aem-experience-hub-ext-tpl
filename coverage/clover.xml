@@ -1,40 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1759322497319" clover="3.2.0">
-  <project timestamp="1759322497319" name="All files">
-    <metrics statements="256" coveredstatements="103" conditionals="130" coveredconditionals="46" methods="50" coveredmethods="18" elements="436" coveredelements="167" complexity="0" loc="256" ncloc="256" packages="11" files="17" classes="17"/>
+<coverage generated="1768991260339" clover="3.2.0">
+  <project timestamp="1768991260339" name="All files">
+    <metrics statements="251" coveredstatements="101" conditionals="118" coveredconditionals="40" methods="46" coveredmethods="14" elements="415" coveredelements="155" complexity="0" loc="251" ncloc="251" packages="11" files="17" classes="17"/>
     <package name="src">
-      <metrics statements="21" coveredstatements="19" conditionals="12" coveredconditionals="6" methods="7" coveredmethods="7"/>
-      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/index.js">
-        <metrics statements="21" coveredstatements="19" conditionals="12" coveredconditionals="6" methods="7" coveredmethods="7"/>
+      <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/index.js">
+        <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="45" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="46" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="50" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
-        <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
         <line num="57" count="1" type="stmt"/>
-        <line num="60" count="1" type="stmt"/>
-        <line num="70" count="36" type="stmt"/>
-        <line num="75" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="83" count="1" type="stmt"/>
-        <line num="84" count="1" type="stmt"/>
-        <line num="88" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.templates">
       <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/index.js">
+      <file name="index.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="jest.setup.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/jest.setup.js">
+      <file name="jest.setup.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/jest.setup.js">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="5" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -43,7 +40,7 @@
     </package>
     <package name="src.templates.actions">
       <metrics statements="28" coveredstatements="28" conditionals="27" coveredconditionals="27" methods="8" coveredmethods="8"/>
-      <file name="utils.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/actions/utils.js">
+      <file name="utils.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/actions/utils.js">
         <metrics statements="28" coveredstatements="28" conditionals="27" coveredconditionals="27" methods="8" coveredmethods="8"/>
         <line num="19" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="20" count="14" type="cond" truecount="2" falsecount="0"/>
@@ -77,7 +74,7 @@
     </package>
     <package name="src.templates.actions.generic">
       <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/actions/generic/index.js">
+      <file name="index.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/actions/generic/index.js">
         <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
@@ -107,7 +104,7 @@
     </package>
     <package name="src.templates.actions.publish-events">
       <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
-      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/actions/publish-events/index.js">
+      <file name="index.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/actions/publish-events/index.js">
         <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
@@ -145,7 +142,7 @@
     </package>
     <package name="src.templates.hooks">
       <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="post-deploy.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/hooks/post-deploy.js">
+      <file name="post-deploy.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/hooks/post-deploy.js">
         <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -165,7 +162,7 @@
     </package>
     <package name="src.templates.src.aem-launchpad-1.actions">
       <metrics statements="28" coveredstatements="0" conditionals="27" coveredconditionals="0" methods="8" coveredmethods="0"/>
-      <file name="utils.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/utils.js">
+      <file name="utils.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/utils.js">
         <metrics statements="28" coveredstatements="0" conditionals="27" coveredconditionals="0" methods="8" coveredmethods="0"/>
         <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -199,7 +196,7 @@
     </package>
     <package name="src.templates.src.aem-launchpad-1.actions.generic">
       <metrics statements="24" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/generic/index.js">
+      <file name="index.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/generic/index.js">
         <metrics statements="24" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
@@ -229,7 +226,7 @@
     </package>
     <package name="src.templates.src.aem-launchpad-1.actions.publish-events">
       <metrics statements="32" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/publish-events/index.js">
+      <file name="index.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/actions/publish-events/index.js">
         <metrics statements="32" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
@@ -267,11 +264,11 @@
     </package>
     <package name="src.templates.src.aem-launchpad-1.web-src.src">
       <metrics statements="35" coveredstatements="0" conditionals="34" coveredconditionals="0" methods="9" coveredmethods="0"/>
-      <file name="exc-runtime.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/exc-runtime.js">
+      <file name="exc-runtime.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/exc-runtime.js">
         <metrics statements="1" coveredstatements="0" conditionals="23" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="23"/>
       </file>
-      <file name="index.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/index.js">
+      <file name="index.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/index.js">
         <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
@@ -291,7 +288,7 @@
         <line num="67" count="0" type="stmt"/>
         <line num="72" count="0" type="stmt"/>
       </file>
-      <file name="utils.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/utils.js">
+      <file name="utils.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/utils.js">
         <metrics statements="17" coveredstatements="0" conditionals="11" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="20" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
@@ -313,33 +310,31 @@
       </file>
     </package>
     <package name="src.templates.src.aem-launchpad-1.web-src.src.components">
-      <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
-      <file name="App.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/App.js">
-        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
+      <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="App.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/App.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
       </file>
-      <file name="Constants.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/Constants.js">
+      <file name="Constants.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/Constants.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="5" count="0" type="stmt"/>
       </file>
-      <file name="ExtensionRegistration.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/ExtensionRegistration.js">
+      <file name="DashboardWidget.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/DashboardWidget.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="ExtensionRegistration.js" path="/Users/bradosch/Work/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/ExtensionRegistration.js">
         <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-      </file>
-      <file name="Hello.js" path="/Users/mpericica/Repositories/aem-experience-hub-ext-tpl/src/templates/src/aem-launchpad-1/web-src/src/components/Hello.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
       </file>
     </package>
   </project>

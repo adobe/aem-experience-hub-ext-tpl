@@ -2,17 +2,14 @@
 * <license header>
 */
 
-import React from 'react'
-import { Provider, defaultTheme, Grid, View } from '@adobe/react-spectrum'
-import ErrorBoundary from 'react-error-boundary'
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-import ExtensionRegistration from './ExtensionRegistration'
-import HelloWorld from './Hello'
+import React from 'react';
+import { Provider, defaultTheme } from '@adobe/react-spectrum';
+import ErrorBoundary from 'react-error-boundary';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import ExtensionRegistration from './ExtensionRegistration';
+import DashboardWidget from './DashboardWidget';
 
 function App (props) {
-  console.log('runtime object:', props.runtime)
-  console.log('ims object:', props.ims)
-
   // use exc runtime event handlers
   // respond to configuration change events (e.g. user switches org)
   props.runtime.on('configuration', ({ imsOrg, imsToken, locale }) => {
@@ -35,7 +32,7 @@ function App (props) {
               />
               <Route
                 exact path="<%= projectName %>"
-                element={<HelloWorld />}
+                element={<DashboardWidget />}
               />
           </Routes>
         </Provider>

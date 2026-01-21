@@ -1,1 +1,10 @@
+# dependencies
 node_modules
+
+# testing
+coverage
+temp-template-test
+
+# IDEs
+.idea
+.vscode
