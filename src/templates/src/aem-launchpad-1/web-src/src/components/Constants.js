@@ -3,5 +3,5 @@
 */
 
 module.exports = {
-    extensionId: '<%= projectName %>'
-  }
+  extensionId: '<%= projectName %>'
+}
